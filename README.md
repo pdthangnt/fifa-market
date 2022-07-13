@@ -6,8 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ```
 npm i
-or
-npm i --legacy-peer-deps
+
 ```
 
 ### yarn
@@ -19,7 +18,7 @@ yarn install
 ## 2.Start
 
 ```sh
-npm start
+npm dev
 or
 yarn start
 ```
