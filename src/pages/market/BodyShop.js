@@ -1,23 +1,16 @@
 import React, { useContext, useState, useEffect } from "react";
-import { useSearchParams }
-    from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 import styled from "styled-components";
 import ICON_FF from "./../../assets/shop/icon-token-fifa-mini.png";
-import { buyCard }
-    from "./../../web3/shop.mjs";
+import { buyCard } from "./../../web3/shop.mjs";
 import meta from "./../../context/Provider";
-import { CHAIN_ID }
-    from "./../../const/const";
-import { HeaderShop }
-    from "./HeaderShop";
-
+import { CHAIN_ID } from "./../../const/const";
+import { HeaderShop } from "./HeaderShop";
 import I3 from "./../../assets/market/Real/1x/3.png";
 import I4 from "./../../assets/market/Real/1x/4.png";
 import "./body.css";
 import Axios from "axios";
-
-import { ModalBuy }
-    from "./modal";
+import { ModalBuy } from "./modal";
 
 const Wrapper = styled.div``;
 
